@@ -33,7 +33,11 @@ import type { Product } from '../types/product_type'
 import { toCurrency } from '../shared/utils'
 import { useCartStore } from '@/store/cart'
 
+
 const cartStore = useCartStore()
-defineProps<{product: Product}>()
+
+defineProps<{ product: Product }>()
+
+console.log('ProductCard')
 
 </script>

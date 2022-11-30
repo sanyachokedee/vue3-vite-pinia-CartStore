@@ -36,8 +36,13 @@ import Footer from './components/Footer.vue'
 import Nav from './components/Nav.vue'
 
 import { useProductStore } from '@/store/products'
+import { usePersisCart } from './composables/usePersistCart';
+
 const productStore = useProductStore()
 productStore.fetchAll()
+usePersisCart()
+
+
 </script>
 
 

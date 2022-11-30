@@ -24,6 +24,8 @@
   // import  products from '../mockupdata/product.json'
 
   const productStore = useProductStore()
-  const products = computed(() => productStore.list)
+const products = computed(() => productStore.list)
+
+console.log('Home')
 
 </script>
