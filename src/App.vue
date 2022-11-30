@@ -34,7 +34,13 @@
 <script setup lang="ts">
 import Footer from './components/Footer.vue'
 import Nav from './components/Nav.vue'
+
+import { useProductStore } from '@/store/products'
+const productStore = useProductStore()
+productStore.fetchAll()
 </script>
+
+
 
 <style scoped>
 
