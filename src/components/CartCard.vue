@@ -7,7 +7,7 @@
             class="object-contain w-40 h-40"
         />
         
-        <slot name="otherNumber"></slot>
+        <!-- <slot name="otherNumber"></slot> -->
 
         </figure> 
         <div class="card-body">
